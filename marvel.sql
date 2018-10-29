@@ -88,3 +88,11 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '20:1
 -- SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
 
 -- UPDATE movies SET show_time = ('14:30') WHERE title = 'Guardians of the Galaxy 2';
+
+/*10*/
+--Above or below
+DELETE FROM people WHERE id > 15;
+--Range
+DELETE FROM people WHERE id > 2 and id < 10;
+--If the name contains a
+DELETE FROM people WHERE name LIKE '%a%';
