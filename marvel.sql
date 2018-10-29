@@ -61,33 +61,33 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '20:1
 /* MY CODE */
 
 /*1*/
--- SELECT * FROM movies;
+SELECT * FROM movies;
 
 /*2*/
--- SELECT name FROM people;
+SELECT name FROM people;
 
 /*3*/
--- UPDATE people SET name = ('Rob Wilson') WHERE id = 21;
+UPDATE people SET name = ('Rob Wilson') WHERE id = 21;
 
 /*4*/
--- SELECT * FROM people WHERE id = 18;
+SELECT * FROM people WHERE id = 18;
 
 /*5*/
--- DELETE FROM movies WHERE id = 9;
+DELETE FROM movies WHERE id = 9;
 
 /*6*/
--- INSERT INTO people (name) VALUES ('Pawel Orzechowski')
+INSERT INTO people (name) VALUES ('Pawel Orzechowski');
 
 /*7*/
--- DELETE FROM people WHERE id = 14;
+DELETE FROM people WHERE id = 14;
 
 /*8*/
--- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 
 /*9*/
--- SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
+SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
 
--- UPDATE movies SET show_time = ('14:30') WHERE title = 'Guardians of the Galaxy 2';
+UPDATE movies SET show_time = ('14:30') WHERE title = 'Guardians of the Galaxy 2';
 
 /*10*/
 --Above or below
